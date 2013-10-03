@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <!--Required Metadata-->
+    <dc:title>Good Luck Textbook C</dc:title>
+    <dc:language>en-us</dc:language>
+    <dc:identifier id="BookId" opf:scheme="uuid">urn:uuid:57b681b5-137b-4791-b5c5-99fdcfaa41ee</dc:identifier> <!--Use the Same for the toc.ncx file -->
+    <dc:creator opf:role="aut">BB eBooks</dc:creator>
+    <dc:publisher>Magnus Axelqvist</dc:publisher>
+    <dc:date>2012-07-09</dc:date>
+    <meta name="cover" content="My_Cover_ID" /> <!--Required for KindleGen-->
+    <!-- Optional Metadata -->
+    <dc:description>This is just a text EPUB for education</dc:description>
+    <dc:rights>Public Domain</dc:rights>
+    <dc:type>Text</dc:type>
+    <dc:source>http://axelqvist.com</dc:source>
+    <dc:coverage>Worldwide</dc:coverage>
+    <dc:contributor opf:file-as="Salvette, Paul" opf:role="pht">Paul Salvette</dc:contributor>
+  </metadata>
+  <manifest>
+    <item href="cover.jpg" id="My_Cover_ID" media-type="image/jpeg" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="coverpage.html" id="htmlcoverpage" media-type="application/xhtml+xml" />
+    <item href="content/htmltoc.html" id="htmltoc" media-type="application/xhtml+xml" />
+    <item href="content/content001.html" id="htmlcontent001" media-type="application/xhtml+xml" />
+    <item href="content/content002.html" id="htmlcontent002" media-type="application/xhtml+xml" />
+    <item href="css/bbstylesheet-epub.css" id="cssbbstylesheet-epub" media-type="text/css" />
+    <item href="images/BBeBooks.jpg" id="img1" media-type="image/jpeg" />
+    <item href="fonts/Chunkfive.otf" id="font1" media-type="font/opentype" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="htmlcoverpage" />
+    <itemref idref="htmltoc" />
+    <itemref idref="htmlcontent001" />
+    <itemref idref="htmlcontent002" />
+  </spine>
+  <guide>
+    <reference href="coverpage.html" type="cover" title="Cover" />
+    <reference href="content/htmltoc.html" type="toc" title="Content" />
+    <reference href="content/content001.html" type="text" title="ONE" />
+  </guide>
+</package>

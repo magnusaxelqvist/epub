@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta content="urn:uuid:57b681b5-137b-4791-b5c5-99fdcfaa41ee" name="dtb:uid" /> <!--Must be exactly the same as dtb:uid in content.opf-->
+    <meta content="1" name="dtb:depth" /> <!-- Set for 2 if you want a sub-level. It can go up to 4 -->
+    <meta content="0" name="dtb:totalPageCount" /> <!-- Do Not change -->
+    <meta content="0" name="dtb:maxPageNumber" /> <!-- Do Not change -->
+  </head>
+  <docTitle>
+    <text>Good Luck Textbook C</text>
+  </docTitle>
+  <docAuthor>
+    <text>Magnus Axelqvist</text>
+  </docAuthor>
+  <navMap>
+    <navPoint id="ncxcoverpage" playOrder="1">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="coverpage.html" />
+    </navPoint>
+    <navPoint id="htmltoc" playOrder="2">
+      <navLabel>
+        <text>Table Of Contents</text>
+      </navLabel>
+      <content src="content/htmltoc.html" />
+    </navPoint>
+    <navPoint id="ncxcontent001h1-1" playOrder="3">
+      <navLabel>
+        <text>One</text>
+      </navLabel>
+      <content src="content/content001.html#h1-1" />
+    </navPoint>
+    <navPoint id="ncxcontent002h2-1" playOrder="4">
+      <navLabel>
+        <text>Two</text>
+      </navLabel>
+      <content src="content/content002.html#h2-1" />
+    </navPoint>
+  </navMap>
+</ncx>
